@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<title>Disney 100 Magic</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+<script src="https://kit.fontawesome.com/88774f9e88.js" crossorigin="anonymous"></script>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-disney-blue4 w3-card w3-padding">
+            <a href="#"><img class="w3-image w3-left w3-margin-right" src="DisneyLogo.png" alt="Disney"></a>
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#videos" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><strong>VIDEOS</strong></a>
+            <a href="#competition" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><strong>COMPETITION</strong></a>
+            <a href="#downloads" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><strong>DOWNLOADS</strong></a>
+            <a href="#musuem" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><strong>MUSUEM</strong></a>
+            <a href="#filters" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><strong>FILTERS</strong></a>
+            <a href="#" class="w3-bar-item w3-button"><i class="fab fa-tiktok fa-2x"></i></a>
+            <a href="#" class="w3-bar-item w3-button"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a>
+            <a href="#" class="w3-bar-item w3-button"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-disney-black w3-hide w3-hide-large w3-hide-medium w3-top w3-opacity-mins" style="margin-top:72px">
+        <a href="#videos" class="w3-bar-item w3-button w3-padding-large w3-center" onclick="myFunction()">VIDEOS</a>
+        <a href="#competition" class="w3-bar-item w3-button w3-padding-large w3-center" onclick="myFunction()">COMPETITION</a>
+        <a href="#downloads" class="w3-bar-item w3-button w3-padding-large w3-center" onclick="myFunction()">DOWNLOADS</a>
+        <a href="#musuem" class="w3-bar-item w3-button w3-padding-large w3-center" onclick="myFunction()">MUSUEM</a>
+        <a href="#filters" class="w3-bar-item w3-button w3-padding-large w3-center" onclick="myFunction()">FILTERS</a>
+    </div>
+
+    <!-- Navigation bar with social media icons -->
+    <div class="w3-bar-item w3-black">
+        <div class="w3-center">
+            <a href="#" class="w3-bar-item w3-button w3-disney-button"><i class="fab fa-tiktok fa-2x"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-disney-button"><i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-disney-button"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-48 w3-transparent">
+
+        <!-- Grid -->
+        <div class="w3-row w3-padding w3-border">
+
+            <!-- Main entries -->
+            <div class="w3-col l8 s12">
+
+                <!-- Introduction -->
+                <div class="w3-disney-container w3-margin w3-padding-large">
+                    <div class="w3-center">
+                        <div id="videoDiv">
+                            <video id="video1" preload="true" autoplay="true" muted="" playsinline="true" loop="">
+                            <source src="Pixie Dust Animation 2.MP4" type="video/mp4">
+                            </video>
+                            <div id="videoMessage" class="styling">
+                                <img class="w3-image w3-left" src="tinkerbell-l.png" alt="Tinkerbell" width="25%" height="25%">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-text-disney-grey w3-justify">
+                        <h1 class="w3-text-disney-white w3-hover-text-disney-pink">I am TINKERBELL</h1>
+                        <p><span class="w3-opacity w3-text-disney-white">your site navigator!</span></p>
+                        <p>What is Disney? Is it The Lion King? Beauty and the Beast? Is it Mulan's bravery? Or Tinkerbell's sparkle?</p>
+                        <p>Disney is the magic that we grew up with, the lessons we learned, and all the adventures we had, as children.</p>
+                        <p>Life may carry on, life may get busy, life may get tough, and we get older, but the Disney magic never fades away.</p>
+                        <p>As Disney celebrates 100 years, we want people to remember the same Disney magic, the same feeling when we were kids, 20 years later.</p>
+                        <h3 class="w3-hover-text-disney-pink">It all starts, with a little pixie dust!</h3>
+                        <p class="w3-clear"></p>
+                    </div>
+                </div>
+
+
+                <!-- Videos -->
+                <div class="w3-disney-container w3-margin w3-padding-large" id="videos">
+                    <div class="w3-center">
+                        <img class="w3-image" src="Videos.png" alt="Videos" height="10%">
+                    </div>
+                    <div class="iframe-container">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bya_t3WHAC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="w3-text-disney-grey w3-justify">
+                        <p><strong>Youtube Videos!</strong></p>
+                        <p>Youtube features 23 second long videos, made up of the most meaningful and memorable moments of Disney movies, giving an overwhelming sense of nostalgia to an audience who watch it and are transported back to their childhoods.</p>
+                        <p class="w3-right"><button class="w3-button w3-border w3-disney-button" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+                        <p class="w3-left">
+                            <a href="#" class="w3-button w3-disney-button w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up"></i></a>
+                        </p>
+                        <p class="w3-clear"></p>
+                        <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Competition -->
+                <div class="w3-disney-container w3-margin w3-padding-large" id="competition">
+                    <div class="w3-center">
+                        <img class="w3-image" src="Competition.png" alt="Competition" height="10%">
+                    </div>
+                    <div class="w3-text-disney-grey w3-justify">
+                        <p><strong>Celebrate Disney through your eyes!</strong>
+                            <p>
+                                <p>Disney means so many different things, in the hearts of so many different people around the world. We want to see what you think of when you think of Disney.</p>
+                                <p>The logo design competition allows you free reign to design and show us what your Disney logo would look like!</p>
+                                <p>Don’t forget to share your creations with your friends - use
+                                    <strong class="w3-hover-text-disney-pink">#MyDisneyDesign</strong> for a chance to be featured!</p>
+                    </div>
+                    <div class="carousel">
+                        <ul class="slides">
+                            <input type="radio" name="radio-buttons" id="img-1" checked />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="Logo1.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-10" class="prev-slide">
+                                  <span>&lsaquo;</span>
+                                </label>
+                                    <label for="img-2" class="next-slide">
+                                  <span>&rsaquo;</span>
+                                </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-2" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="Logo2.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-1" class="prev-slide">
+                                  <span>&lsaquo;</span>
+                                </label>
+                                    <label for="img-3" class="next-slide">
+                                  <span>&rsaquo;</span>
+                                </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-3" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="Logo3.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-2" class="prev-slide">
+                                  <span>&lsaquo;</span>
+                                </label>
+                                    <label for="img-4" class="next-slide">
+                                  <span>&rsaquo;</span>
+                                </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-4" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="Logo4.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-3" class="prev-slide">
+                                  <span>&lsaquo;</span>
+                                </label>
+                                    <label for="img-5" class="next-slide">
+                                  <span>&rsaquo;</span>
+                                </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-5" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="Logo5.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-4" class="prev-slide">
+                                  <span>&lsaquo;</span>
+                                </label>
+                                    <label for="img-6" class="next-slide">
+                                  <span>&rsaquo;</span>
+                                </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-6" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="Logo6.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-5" class="prev-slide">
+                                  <span>&lsaquo;</span>
+                                </label>
+                                    <label for="img-7" class="next-slide">
+                                  <span>&rsaquo;</span>
+                                </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-7" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="Logo7.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-6" class="prev-slide">
+                                  <span>&lsaquo;</span>
+                                </label>
+                                    <label for="img-8" class="next-slide">
+                                  <span>&rsaquo;</span>
+                                </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-8" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="Logo8.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-7" class="prev-slide">
+                                  <span>&lsaquo;</span>
+                                </label>
+                                    <label for="img-9" class="next-slide">
+                                  <span>&rsaquo;</span>
+                                </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-9" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="Logo9.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-8" class="prev-slide">
+                                  <span>&lsaquo;</span>
+                                </label>
+                                    <label for="img-10" class="next-slide">
+                                  <span>&rsaquo;</span>
+                                </label>
+                                </div>
+                            </li>
+                            <input type="radio" name="radio-buttons" id="img-10" />
+                            <li class="slide-container">
+                                <div class="slide-image">
+                                    <img src="Logo10.png">
+                                </div>
+                                <div class="carousel-controls">
+                                    <label for="img-9" class="prev-slide">
+                                  <span>&lsaquo;</span>
+                                </label>
+                                    <label for="img-1" class="next-slide">
+                                  <span>&rsaquo;</span>
+                                </label>
+                                </div>
+                            </li>
+                            <div class="carousel-dots">
+                                <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                                <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                                <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                                <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+                                <label for="img-5" class="carousel-dot" id="img-dot-5"></label>
+                                <label for="img-6" class="carousel-dot" id="img-dot-6"></label>
+                                <label for="img-7" class="carousel-dot" id="img-dot-7"></label>
+                                <label for="img-8" class="carousel-dot" id="img-dot-8"></label>
+                                <label for="img-9" class="carousel-dot" id="img-dot-9"></label>
+                                <label for="img-10" class="carousel-dot" id="img-dot-10"></label>
+                            </div>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="w3-right">
+                            <button class="w3-button w3-disney-blue3 w3-border" onclick="document.getElementById('subscribe').style.display='block'">SUBMIT LOGO</button>
+                        </p>
+                        <p class="w3-left">
+                            <a href="#" class="w3-button w3-disney-button w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up"></i></a>
+                        </p>
+                        <p class="w3-clear"></p>
+                    </div>
+                </div>
+
+                <!-- END MAIN ENTRIES -->
+            </div>
+
+            <!-- Information menu -->
+            <div class="w3-col l4">
+
+                <!-- Downloads -->
+                <div class="w3-disney2-container w3-margin w3-disney-grey" id="downloads">
+                    <div class="w3-disney2-container w3-padding w3-disney-blue1 w3-text-disney-black">
+                        <img class="w3-image" src="Downloads.png" alt="Downloads" height="10%">
+                    </div>
+                    <ul class="w3-ul">
+                        <li class="w3-padding-16">
+                            <div class="w3-center-align w3-min-width w3-text-disney-black">
+                                <p><strong>Keep Disney on your mind as we celebrate 100 years! </strong>
+                                    <p>
+                                        <p>Choose from a variety of exclusive wallpapers made just for you!</p>
+                            </div>
+                        </li>
+                        <ul class="w3-ul">
+                            <li class="w3-padding-16 w3-disney-hercules">
+                                <div class="w3-center-align w3-min-width">
+                                    <table>
+                                        <tr>
+                                            <th style="width:75%"><img src="Hercules-Icon.png" alt="Hercules" class="w3-transparent"></th>
+                                            <th><a href="Hercules-Mobile.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Mobile</button></a><br><br>
+                                                <a href="Hercules-Desktop.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Desktop</button></a> </a>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="w3-padding-16 w3-disney-nemo">
+                                <div class="w3-center-align w3-min-width">
+                                    <table>
+                                        <tr>
+                                            <th style="width:75%"><img src="FindingNemo-Icon.png" alt="Finding Nemo" class="w3-transparent"></th>
+                                            <th><a href="FindingNemo-Mobile.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Mobile</button></a><br><br>
+                                                <a href="FindingNemo-Mobile.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Desktop</button></a> </a>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="w3-padding-16 w3-disney-sleepb">
+                                <div class="w3-center-align w3-min-width">
+                                    <table>
+                                        <tr>
+                                            <th style="width:75%"><img src="SleepingBeauty-Icon.png" alt="Sleeping Beauty" class="w3-transparent"></th>
+                                            <th><a href="SleepingBeauty-Mobile.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Mobile</button></a><br><br>
+                                                <a href="SleepingBeauty-Desktop.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Desktop</button></a> </a>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="w3-padding-16 w3-disney-tiana">
+                                <div class="w3-center-align w3-min-width">
+                                    <table>
+                                        <tr>
+                                            <th style="width:75%"><img src="Tiana-Icon.png" alt="Tiana" class="w3-transparent"></th>
+                                            <th><a href="Tiana-Mobile.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Mobile</button></a><br><br>
+                                                <a href="Tiana-Desktop.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Desktop</button></a> </a>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="w3-padding-16 w3-disney-pascal">
+                                <div class="w3-center-align w3-min-width">
+                                    <table>
+                                        <tr>
+                                            <th style="width:75%"><img src="Pascal-Icon.png" alt="Pascal" class="w3-transparent"></th>
+                                            <th><a href="Pascal-Mobile.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Mobile</button></a><br><br>
+                                                <a href="Pascal-Desktop.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Desktop</button></a> </a>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="w3-padding-16 w3-disney-fairymother">
+                                <div class="w3-center-align w3-min-width">
+                                    <table>
+                                        <tr>
+                                            <th style="width:75%"><img src="FairyGodmothers-Icon.png" alt="Fairy Godmothers" class="w3-transparent"></th>
+                                            <th><a href="FairyGodmothers-Mobile.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Mobile</button></a><br><br>
+                                                <a href="FairyGodmothers-Desktop.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Desktop</button></a> </a>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                            <li class="w3-padding-16 w3-disney-castle">
+                                <div class="w3-center-align w3-min-width">
+                                    <table>
+                                        <tr>
+                                            <th style="width:75%"><img src="Castle-Icon.png" alt="Castle" class="w3-transparent"></th>
+                                            <th><a href="Castle-Mobile.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Mobile</button></a><br><br>
+                                                <a href="Castle-Desktop.png" download><button class="w3-button w3-disney-button"><i class="fa fa-download"></i> Desktop</button></a> </a>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </li>
+                        </ul>
+                </div>
+                <hr>
+
+                <!-- Museum -->
+                <div class="w3-disney2-container w3-margin w3-disney-grey" id="museum">
+                    <div class="w3-disney2-container w3-padding w3-disney-blue2 w3-text-disney-black">
+                        <img class="w3-image" src="Museum.png" alt="Museum" height="10%">
+                    </div>
+                    <div class="w3-container">
+                        <div class="w3-container w3-display-container w3-section">
+                            <img class="w3-image" src="Processmuseum8.jpg" alt="Museum" height="10%">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Filters -->
+                <div class="w3-disney2-container w3-margin w3-disney-grey" id="filters">
+                    <div class="w3-disney2-container w3-padding w3-disney-blue3 w3-text-disney-black">
+                        <img class="w3-image" src="Filters.png" alt="Filters" height="10%">
+                    </div>
+                    <div class="w3-row-padding">
+                        <div class="w3-col s6">
+                            <p><img src="Filter1.png" alt="Filter1" style="width:100%"></p>
+                            <p><img src="Filter2.png" alt="Filter2" style="width:100%"></p>
+                        </div>
+                        <div class="w3-col s6">
+                            <p><img src="Filter3.png" alt="Filter3" style="width:100%" class="w3-grayscale"></p>
+                            <p><img src="Filter4.png" alt="Filter4" style="width:100%"></p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+
+                <!-- Follow us -->
+                <div class="w3-disney2-container w3-margin w3-disney-grey">
+                    <div class="w3-disney2-container w3-padding w3-disney-blue4 w3-text-disney-white w3-opacity-mins">
+                        <img class="w3-image" src="Follow.png" alt="Follow us" height="10%">
+                    </div>
+                    <div class="w3-container w3-xlarge w3-padding w3-text-disney-black">
+                        <i class="fab fa-tiktok w3-hover-opacity"></i>
+                        <i class="fa fa-instagram w3-hover-opacity"></i>
+                        <i class="fa fa-youtube w3-hover-opacity"></i>
+                    </div>
+                    <div class="w3-container">
+                        <p>
+                            <span class="w3-tag w3-black w3-margin-bottom">MyDisneyDesign</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">D23</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">100</span>
+                            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">100yearsofdisneymagic</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">celebration</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Magic</span>
+                            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tinkerbell</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Castle</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tangled</span>
+                            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Cameleon</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Pascal</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">PrincessandtheFrog</span>
+                            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">SleepingBeauty</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Fairy Godmothers</span>
+                            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Hercules</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Nemo</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Finding Nemo</span>
+                            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Tians</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">ImmerseYourself</span>
+
+
+                        </p>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- END About/Intro Menu -->
+            </div>
+
+            <!-- END GRID -->
+        </div>
+
+        <!-- END w3-content -->
+        </div>
+
+        <!-- Subscribe Modal -->
+        <div id="subscribe" class="w3-modal w3-animate-opacity">
+
+            <div class="form-container">
+                <form action="index.html">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                    <option value="australia">Africa</option>
+                    <option value="canada">Europe</option>
+                    <option value="usa">Middle East</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="file" id="myFile" name="filename">
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-container w3-disney-black" style="padding:32px">
+            <a href="#" class="w3-button w3-disney-button w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        </footer>
+
+        <script>
+            // Slideshow
+            window.console = window.console || function(t) {};
+            if (document.location.search.match(/type=embed/gi)) {
+                window.parent.postMessage("resize", "*");
+            }
+
+
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function myFunction() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            var modal = document.getElementById('ticketModal');
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+            // Toggle between hiding and showing blog replies/comments
+            document.getElementById("myBtn").click();
+
+            function myFunction(id) {
+                var x = document.getElementById(id);
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else {
+                    x.className = x.className.replace(" w3-show", "");
+                }
+            }
+
+            function likeFunction(x) {
+                x.style.fontWeight = "bold";
+                x.innerHTML = "✓ Liked";
+            }
+        </script>
+
+
+
+</body>
+
+</html>
