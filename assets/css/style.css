@@ -788,6 +788,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: bold;
     margin-bottom: 10px;
     color: #fff;
+    text-align: center;
 }
 
 #about h3 {
@@ -799,9 +800,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about p {
-    font-size: 14px;
-    margin-bottom: 20px;
-    color: #fff;
+    text-align: center;
 }
 
 
@@ -1099,66 +1098,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 /*--------------------------------------------------------------
-# Hotels Section
---------------------------------------------------------------*/
-
-#hotels {
-    padding: 60px 0;
-}
-
-#hotels .hotel {
-    border: 1px solid #e0e5fa;
-    background: #fff;
-    margin-bottom: 30px;
-}
-
-#hotels .hotel:hover .hotel-img img {
-    transform: scale(1.1);
-}
-
-#hotels .hotel-img {
-    overflow: hidden;
-    margin-bottom: 15px;
-}
-
-#hotels .hotel-img img {
-    transition: 0.3s ease-in-out;
-}
-
-#hotels h3 {
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 5px;
-    padding: 0 20px;
-}
-
-#hotels a {
-    color: #152b79;
-}
-
-#hotels a:hover {
-    color: #357FD8;
-}
-
-#hotels .stars {
-    padding: 0 20px;
-    margin-bottom: 5px;
-}
-
-#hotels .stars i {
-    color: #ffc31d;
-}
-
-#hotels p {
-    padding: 0 20px;
-    margin-bottom: 20px;
-    color: #060c22;
-    font-style: italic;
-    font-size: 15px;
-}
-
-
-/*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
 
@@ -1202,102 +1141,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 4px;
     background: #fff;
     z-index: 1;
-}
-
-
-/*--------------------------------------------------------------
-# Sponsors Section
---------------------------------------------------------------*/
-
-#supporters {
-    padding: 60px 0;
-}
-
-#supporters .supporters-wrap {
-    border-top: 1px solid #e0e5fa;
-    border-left: 1px solid #e0e5fa;
-    margin-bottom: 30px;
-}
-
-#supporters .supporter-logo {
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 1px solid #e0e5fa;
-    border-bottom: 1px solid #e0e5fa;
-    overflow: hidden;
-    background: rgba(255, 255, 255, 0.5);
-    height: 160px;
-}
-
-#supporters .supporter-logo:hover img {
-    transform: scale(1.2);
-}
-
-#supporters img {
-    transition: all 0.4s ease-in-out;
-}
-
-
-/*--------------------------------------------------------------
-# F.A.Q Section
---------------------------------------------------------------*/
-
-#faq {
-    padding: 60px 0;
-}
-
-#faq #faq-list {
-    padding: 0;
-    list-style: none;
-}
-
-#faq #faq-list li {
-    border-bottom: 1px solid #ddd;
-}
-
-#faq #faq-list a {
-    padding: 18px 0;
-    display: block;
-    position: relative;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
-    padding-right: 20px;
-}
-
-#faq #faq-list i {
-    font-size: 24px;
-    position: absolute;
-    right: 0;
-    top: 16px;
-}
-
-#faq #faq-list p {
-    margin-bottom: 20px;
-}
-
-@media (max-width: 768px) {
-    #faq #faq-list a {
-        font-size: 18px;
-    }
-    #faq #faq-list i {
-        top: 13px;
-    }
-}
-
-#faq #faq-list a.collapse {
-    color: #357FD8;
-}
-
-#faq #faq-list a.collapsed {
-    color: #000;
-}
-
-#faq #faq-list a.collapsed i::before {
-    content: "\f055" !important;
 }
 
 
